@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@mxjs/a-button": "^3.1.0",
-    "antd": "~5.1.6",
+    "antd": "~5.13",
     "prop-types": "^15.7.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"
