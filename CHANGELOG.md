@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/miaoxing/mxjs-a-ret/compare/v1.1.0...v1.2.0) (2024-02-20)
+
+
+### Features
+
+* 更新 antd, antd icons 版本 ([bee80ea](https://github.com/miaoxing/mxjs-a-ret/commit/bee80ea9078ee0a2a91595f0deea982bd3a0e7b6))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-button:** upgrade from `3.1.0` to `3.2.0`
+
 # [1.1.0](https://github.com/miaoxing/mxjs-a-ret/compare/v1.0.0...v1.1.0) (2024-01-31)
 
 
