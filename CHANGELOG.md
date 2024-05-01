@@ -1,3 +1,23 @@
+# [2.0.0](https://github.com/miaoxing/mxjs-a-ret/compare/v1.2.1...v2.0.0) (2024-05-01)
+
+
+### Features
+
+* 更新 `react-router` 到 v6 ([70da5e8](https://github.com/miaoxing/mxjs-a-ret/commit/70da5e87496fdcbc9cc5ca3c5f937e0964457589))
+
+
+### BREAKING CHANGES
+
+* 更新 `react-router` 到 v6
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-button:** upgrade from `3.2.1` to `4.0.0`
+
 ## [1.2.1](https://github.com/miaoxing/mxjs-a-ret/compare/v1.2.0...v1.2.1) (2024-03-31)
 
 
