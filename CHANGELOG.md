@@ -1,3 +1,19 @@
+## [2.0.2](https://github.com/miaoxing/mxjs-a-ret/compare/v2.0.1...v2.0.2) (2024-07-31)
+
+
+### Bug Fixes
+
+* `export default from` 改为标准语法 ([7d3f877](https://github.com/miaoxing/mxjs-a-ret/commit/7d3f877589c97c049cdb11a1f411e56e8944fc12))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-button:** upgrade from `4.0.1` to `5.0.0`
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+
 ## [2.0.1](https://github.com/miaoxing/mxjs-a-ret/compare/v2.0.0...v2.0.1) (2024-05-30)
 
 
