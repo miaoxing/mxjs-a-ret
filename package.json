@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/a-ret",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -11,14 +11,14 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
-    "@mxjs/a-button": "^5.0.1",
+    "@mxjs/a-button": "^5.0.2",
     "antd": "~5.13",
     "prop-types": "^15.7.2",
     "react-router": "^6",
     "react-router-dom": "^6"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^9.1.2",
+    "@miaoxing/dev": "^9.1.3",
     "@testing-library/react": "^14",
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1"
