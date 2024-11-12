@@ -8,34 +8,32 @@ const Ret = (
     children,
   }
 ) => {
-  if (!result) {
-    return children;
-  }
+  for (const item of (Array.isArray(result) ? result : [result])) {
+    if (item.isLoading) {
+      return (
+        <Spin/>
+      );
+    }
 
-  if (result.loading) {
-    return (
-      <Spin/>
-    )
-  }
-
-  if (result.error) {
-    return (
-      <Result
-        status="error"
-        title="出错了"
-        subTitle={result.error.message}
-        extra={
-          <Button type="primary" onClick={() => request.refresh()}>重试</Button>
-        }
-      />
-    );
+    if (item.error) {
+      return (
+        <Result
+          status="error"
+          title="出错了"
+          subTitle={item.error.message}
+          extra={
+            <Button type="primary" onClick={() => item.mutate()}>重试</Button>
+          }
+        />
+      );
+    }
   }
 
   return children;
 };
 
 Ret.propTypes = {
-  result: PropTypes.object,
+  result: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
   children: PropTypes.node,
 };
 
