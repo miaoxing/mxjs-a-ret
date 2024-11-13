@@ -1,17 +1,19 @@
 import { Button, Result, Spin } from 'antd';
 import PropTypes from 'prop-types';
-import React from 'react';
 
 const Ret = (
   {
     result,
+    block = true,
     children,
   }
 ) => {
   for (const item of (Array.isArray(result) ? result : [result])) {
     if (item.isLoading) {
       return (
-        <Spin/>
+        <Spin>
+          {!block && children}
+        </Spin>
       );
     }
 
@@ -34,6 +36,7 @@ const Ret = (
 
 Ret.propTypes = {
   result: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
+  block: PropTypes.bool,
   children: PropTypes.node,
 };
 
