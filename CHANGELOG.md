@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/miaoxing/mxjs-a-ret/compare/v2.1.1...v2.2.0) (2024-11-30)
+
+
+### Features
+
+* **a-ret:** `Ret` 支持传入多个请求 ([67c9c3b](https://github.com/miaoxing/mxjs-a-ret/commit/67c9c3bd180a8c490f8ab4a8d0b2b1de6d158891))
+* **a-ret:** `Ret` 支持设置 `block` 为 `false`，`loading` 时会显示子内容 ([0004603](https://github.com/miaoxing/mxjs-a-ret/commit/0004603f13aa083f9fdb4e2e0abd43cdbec13c16))
+* **a-ret, experimental:** 增加 `Ret` 组件 ([db63bd0](https://github.com/miaoxing/mxjs-a-ret/commit/db63bd0ca7cb6cfec5dc58030ba6a5a307af3128))
+
 ## [2.1.1](https://github.com/miaoxing/mxjs-a-ret/compare/v2.1.0...v2.1.1) (2024-09-30)
 
 
