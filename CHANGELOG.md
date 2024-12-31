@@ -1,3 +1,14 @@
+## [2.2.2](https://github.com/miaoxing/mxjs-a-ret/compare/v2.2.1...v2.2.2) (2024-12-31)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-button:** upgrade from `5.2.1` to `5.2.2`
+* **@miaoxing/dev:** upgrade from `9.3.0` to `9.3.1`
+
 ## [2.2.1](https://github.com/miaoxing/mxjs-a-ret/compare/v2.2.0...v2.2.1) (2024-12-30)
 
 
